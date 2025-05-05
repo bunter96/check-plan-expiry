@@ -1,0 +1,9 @@
+{
+  "name": "checkPlanExpiry",
+  "description": "Checks for expired subscriptions and updates user profiles to free-tier state",
+  "runtime": "node-18.0",
+  "entrypoint": "checkPlanExpiry.js",
+  "events": [],
+  "schedule": "0 0 * * *",
+  "timeout": 30
+}
